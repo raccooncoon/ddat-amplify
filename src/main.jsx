@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
+//import './index.css'
 import {Amplify} from 'aws-amplify';
 import amplifyconfig from './amplifyconfiguration.json';
 import {Authenticator, useTheme, View} from "@aws-amplify/ui-react";
@@ -37,8 +37,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <QueryClientProvider client={queryClient}>
                     <ReactQueryDevtools initialIsOpen={true}/>
                     <main>
-                        <App/>
-                        <button  onClick={signOut}>Sign out</button>
+                    <button onClick={signOut}>Sign out</button>
+                        <App signOut={signOut} />
                     </main>
                 </QueryClientProvider>
             )}
