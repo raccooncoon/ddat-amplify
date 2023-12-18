@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ddatalpha-dev-25801-authRole",
+      "UnauthRoleArn": "arn:aws:iam::294972439816:role/amplify-ddatalpha-dev-25801-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::294972439816:role/amplify-ddatalpha-dev-25801-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-ddatalpha-dev-25801-deployment",
+      "UnauthRoleName": "amplify-ddatalpha-dev-25801-unauthRole",
+      "StackName": "amplify-ddatalpha-dev-25801",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:294972439816:stack/amplify-ddatalpha-dev-25801/d6a85a80-8ee0-11ee-b57f-02f4538c82a2",
+      "AmplifyAppId": "dkeixdza8czf"
+    }
+  }
+}
