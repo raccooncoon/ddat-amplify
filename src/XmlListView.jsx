@@ -35,7 +35,8 @@ const XmlListView = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [activeTab, setActiveTab] = useState(0); // 현재 활성 탭
 
-    const END_POINT_URL = `http://raccoon.kr:38080/api/xml/mapperBody/${searchTerm}`;
+    // const END_POINT_URL = `http://localhost:8080/api/xml/mapperBody/${searchTerm}`;
+    const END_POINT_URL = `api/xml/mapperBody/${searchTerm}`;
     const handleOpenModal = (row) => {
         console.log(row);
         setSelectedRow(row);

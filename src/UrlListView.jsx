@@ -20,7 +20,8 @@ const UrlListView = ({servicesName, mapperNameSpace, mapperId, defaultPageSize, 
         totalElements: 0,
     });
     const [isLoading, setIsLoading] = useState(true); // isLoading 상태 추가
-    const END_POINT_URL = `http://raccoon.kr:38080/api/url/mapperId/${servicesName}/${mapperNameSpace}/${mapperId}`;
+    // const END_POINT_URL = `http://localhost:8080/api/url/mapperId/${servicesName}/${mapperNameSpace}/${mapperId}`;
+    const END_POINT_URL = `api/url/mapperId/${servicesName}/${mapperNameSpace}/${mapperId}`;
 
     useEffect(() => {
         fetchData();
