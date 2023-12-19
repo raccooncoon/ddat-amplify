@@ -1,0 +1,11 @@
+type XmlMapper @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  serviceName: String
+  fileName: String
+  filePath: String
+  mapperId: String
+  mapperName: String
+  mapperNameSpace: String
+  mapperType: String
+  mapperBody: String
+}
