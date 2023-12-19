@@ -23,7 +23,7 @@ const components = {
                     height="35%"
                     width="35%"
                     alt="DDAT logo"
-                    src="public/ddat.png"
+                    src="ddat.png"
                 />
             </View>
         );
